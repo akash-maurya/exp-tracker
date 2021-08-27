@@ -1,0 +1,10 @@
+
+@media screen and (max-width : 500px) {
+     .wrap-items{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          /* margin: auto; */
+     }
+}

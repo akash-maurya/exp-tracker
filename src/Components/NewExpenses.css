@@ -1,0 +1,108 @@
+.new-expense {
+  background-color: #b6b4b9;
+  padding: 1rem;
+  margin: 2rem auto;
+  width: 50rem;
+  max-width: 95%;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 1px 8px hsl(44, 92%, 52%);
+}
+
+.new-expense button {
+  font: inherit;
+  cursor: pointer;
+  padding: 1rem 2rem;
+  border: 1px solid hsl(44, 92%, 52%);
+  background-color: #e7bf0e;
+  color: white;
+  border-radius: 12px;
+  margin-right: 1rem;
+}
+
+.new-expense button:hover,
+.new-expense button:active {
+  background-color: #d8b311;
+  border-color: #c7a304;
+}
+
+.new-expense button.alternative {
+  color: #220131;
+  border-color: transparent;
+  background-color: transparent;
+}
+
+.new-expense button.alternative:hover,
+.new-expense button.alternative:active {
+  background-color: #f8f7b3;
+}
+.new-expense__controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.new-expense__control label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.new-expense__control input {
+  font: inherit;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 20rem;
+  max-width: 100%;
+}
+
+.new-expense__actions {
+  text-align: right;
+}
+
+
+@media  screen and (max-width : 500px) {
+  .new-expense {
+  background-color: #b6b4b9;
+    padding: 1rem;
+    margin: 3rem 3rem;
+    width: 18rem;
+    max-width: 90%;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 1px 8px hsl(44deg 92% 52%);
+  } 
+  .new-expense__control input {
+  font: inherit;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 20rem;
+  max-width: 78%;
+  }
+}
+
+
+@media screen  and (min-width : 510px ) and (max-width: 770px){
+    .new-expense {
+  background-color: #b6b4b9;
+    padding: 1rem;
+    margin: 3rem 3rem;
+    width: 34.5rem;
+    max-width: 90%;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 1px 8px hsl(44deg 92% 52%);
+  } 
+    .new-expense__control input {
+  font: inherit;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 15.6rem;
+  max-width: 78%;
+  }
+}

@@ -1,0 +1,64 @@
+
+
+.trackName{
+  background-color: hsl(44, 92%, 52%);
+  margin: auto --12px;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  display:  flex;
+  justify-content: center;
+  align-items: center;
+  /* width: 100%; */
+}
+
+.trackName h1 { 
+    color : white ;
+    font-family: "McLaren", cursive;;
+    font-weight: 500;
+    padding: 20px;
+    text-shadow: 3px 2px 2px rgb(66, 64, 64);
+}
+
+.trackName h2{
+    color : white ;
+    font-family: "McLaren", cursive;;
+    font-weight: 100;
+    padding: 2rem;
+    text-shadow: 3px 2px 2px rgb(66, 64, 64);
+}
+
+@media screen and (max-width : 400px ){
+    
+.trackName{
+  display: block;
+  background-color: hsl(44, 92%, 52%);
+  margin: auto --12px;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  display:  flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  font-size: 10px;
+  width: 100%;
+  word-wrap:break-word;
+  
+  /* width: 100%; */
+ }
+}
+
+@media (max-width : 500px) {
+  .trackName{
+  display: block;
+  background-color: hsl(44, 92%, 52%);
+  margin: auto --12px;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  display:  flex;
+  justify-content: center;
+  align-items: center;
+  height: 65px;
+  font-size: 13px;
+   width: 100%; 
+ }
+}
